@@ -1,13 +1,18 @@
-body {
-
-    background: slategray
-     }
-     h1 {
-
-        background-color: rgb(241, 51, 51);
-        
-        color: #ffffff;
-        
-        }
-
-     
+body {background: rgb(80, 80, 80)}
+h1 {background-color: rgb(241, 51, 51);
+color: #ffffff; }
+h2 { background-color: rgb(241, 51, 51);
+color:#ffffff}
+p {color: #ffffff;}
+figcaption {color: #ffffff;}
+h3 {color: #ffffff;}
+table {color: #ffffff;}
+footer {color: #ffffff;}
+h1 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+h2 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+p {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+figcaption {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+h3 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+table {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+footer {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+a {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
