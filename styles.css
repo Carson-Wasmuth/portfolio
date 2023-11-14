@@ -19,5 +19,7 @@ table {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Luc
 footer {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 a {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 ::selection {background-color: lightcoral;}
-#Bio {border-style: inset;}
+#Bio {border-style: ridge;}
 #Bio {background-color: rgb(169, 169, 169)}
+#Bio {border-color: rgb(246, 35, 35)}
+#Bio {border-width: 0.5cqmax;}
