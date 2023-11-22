@@ -49,17 +49,16 @@ h2 {
     margin-bottom: 15px;
 }
 
-
 /* Styling for image captions within the Bio section */
 #Bio figcaption {
     font-style: italic;
-    text-align: center;
+    text-align: left;
     margin-top: 10px;
-    background-color: rgb(191, 33, 33); 
-    padding: 8px;
+    background: linear-gradient(rgb(185, 41, 41), rgb(137, 40, 29)); 
+    padding: 10px;
     border-radius: 8px;
-    width: auto; 
-    display: inline-block; 
+    width: auto;
+    color: #ffffff;
 }
 
 /* Styling for secondary headings within the Bio section */
@@ -69,7 +68,7 @@ h2 {
 
 /* Styling for the footer */
 footer {
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(55, 55, 55);
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -120,11 +119,12 @@ img {
 figcaption {
     font-style: italic;
     text-align: center;
-    background-color: rgb(191, 33, 33); 
+    background: linear-gradient(rgb(185, 41, 41), rgb(137, 29, 29)); 
     padding: 8px;
     border-radius: 8px;
-    width: auto; 
-    display: inline-block; 
+    width: auto;
+    display: inline-block;
+    color: #ffffff;
 }
 
 /* Styling for the table */
@@ -137,18 +137,18 @@ table {
 
 /* Styling for table header and cells */
 th, td {
-    border: 1px solid #ff0000;
+    border: 1px solid #ffffff;
     padding: 15px;
     text-align: left;
     border-radius: 8px;
-    background-color: #808080; 
-    color: #ffffff; 
+    background-color: #808080;
+    color: #ffffff;
 }
 
 /* Styling for table header */
 th {
     border-radius: 8px 8px 0 0;
-    background-color: rgb(89, 89, 89); 
+    background-color: rgb(89, 89, 89);
 }
 
 /* Styling for links to trailers */
@@ -178,7 +178,7 @@ a[href*="youtube.com/watch?v="]:hover {
     }
 
     #Bio img {
-        padding: 5px;
+        padding: 10px;
     }
 
     #Bio figcaption {
@@ -186,7 +186,7 @@ a[href*="youtube.com/watch?v="]:hover {
     }
 
     footer {
-        padding: 15px;
+        padding: 20px;
     }
 
     nav a {
