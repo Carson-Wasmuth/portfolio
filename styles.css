@@ -1,25 +1,163 @@
-body {background: rgb(80, 80, 80)}
-h1 {background-color: rgb(241, 51, 51);
-color: #ffffff; }
-h2 { background-color: rgb(241, 51, 51);
-color:#ffffff}
-p {color: #ffffff;}
-figcaption {color: #ffffff;}
-h3 {color: #ffffff;}
-table {color: #ffffff;}
-footer {background-color: rgb(255, 255, 255);
-    
-    color: #000000;}
-h1 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-h2 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-p {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-figcaption {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-h3 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-table {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-footer {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-a {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-::selection {background-color: lightcoral;}
-#Bio {border-style: ridge;}
-#Bio {background-color: rgb(169, 169, 169)}
-#Bio {border-color: rgb(246, 35, 35)}
-#Bio {border-width: 0.5cqmax;}
+/* Import the Google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* General styling for the body */
+body {
+    background: rgb(50, 50, 50);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the main heading */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(191, 33, 33);
+    color: #ffffff;
+    padding: 15px;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Styling for secondary headings */
+h2 {
+    background-color: rgb(191, 33, 33);
+    color: #ffffff;
+    padding: 12px;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the main section (Bio) */
+#Bio {
+    border-style: ridge;
+    background: linear-gradient(rgb(169, 169, 169), rgb(100, 100, 100));
+    border-color: rgb(246, 35, 35);
+    border-width: 1px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for paragraphs within the Bio section */
+#Bio p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Unique background and style for the paragraph below "About Me" */
+#about-me-paragraph {
+    background-color: rgb(33, 33, 33);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for images within the Bio section */
+#Bio img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-color: #191919; /* Background color for images */
+    padding: 10px; /* Adjust as needed */
+}
+
+/* Pseudo-element to create an offset red background effect for images */
+#Bio img::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgb(191, 33, 33);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+/* Styling for image captions within the Bio section */
+#Bio figcaption {
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(191, 33, 33); /* Background color for image captions */
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* Styling for secondary headings within the Bio section */
+#Bio h2 {
+    color: #191919;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: rgb(33, 33, 33);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for footer links */
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Hover effect for footer links */
+footer a:hover {
+    color: #ff6347;
+}
+
+/* Styling for text selection */
+::selection {
+    background-color: #ff6347;
+}
+
+/* Styling for navigation bar */
+nav {
+    margin-bottom: 20px;
+    background: linear-gradient(rgb(191, 33, 33), rgb(241, 51, 51));
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for navigation links */
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    color: #ff6347;
+}
+
+/* Styling for images and captions throughout the page */
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 12px
+
+
+
+
