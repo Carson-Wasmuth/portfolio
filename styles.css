@@ -1,0 +1,222 @@
+/* Import the Google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* General styling for the body */
+body {
+    background: linear-gradient(rgb(50, 50, 50), rgb(0, 0, 0));
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Styling for the main heading */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(#d81515, #8d0f0f);
+    color: #ffffff;
+    padding: 15px;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Styling for secondary headings */
+h2 {
+    background: linear-gradient(#df2424, #9c1515);
+    color: #ffffff;
+    padding: 12px;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for tertiary headings */
+h3 {
+    background: linear-gradient(#a52a2a, #8b0000);
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the main section (Bio) */
+#Bio {
+    border-style: ridge;
+    background: linear-gradient(rgb(169, 169, 169), rgb(100, 100, 100));
+    border-color: rgb(246, 35, 35);
+    border-width: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for paragraphs within the Bio section */
+#Bio p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Styling for image captions within the Bio section */
+#Bio figcaption {
+    font-style: italic;
+    text-align: left;
+    margin-top: 10px;
+    background: linear-gradient(rgb(185, 41, 41), rgb(137, 40, 29)); 
+    padding: 10px;
+    border-radius: 8px;
+    width: auto;
+    color: #ffffff;
+}
+
+/* Styling for secondary headings within the Bio section */
+#Bio h2 {
+    color: #191919;
+}
+
+/* Styling for tertiary headings within the Bio section */
+#Bio h3 {
+    color: #191919;
+}
+
+/* Styling for the footer */
+footer {
+    background: linear-gradient(rgb(55, 55, 55), rgb(33, 33, 33));
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for text selection */
+::selection {
+    background-color: #ff6347;
+}
+
+/* Styling for navigation bar */
+nav {
+    margin-bottom: 20px;
+    background: linear-gradient(rgb(191, 33, 33), rgb(241, 51, 51));
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for navigation links */
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    color: #ff6347;
+}
+
+/* Styling for images and captions throughout the page */
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 4px solid #ff0000;
+    margin: 10px;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+    background: linear-gradient(rgb(185, 41, 41), rgb(137, 29, 29)); 
+    padding: 8px;
+    border-radius: 8px;
+    width: auto;
+    display: inline-block;
+    color: #ffffff;
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for table header and cells */
+th, td {
+    border: 1px solid #ffffff;
+    padding: 15px;
+    text-align: left;
+    border-radius: 8px;
+    background: #808080;
+    color: #ffffff;
+}
+
+/* Styling for table header */
+th {
+    border-radius: 8px 8px 0 0;
+    background: rgb(89, 89, 89);
+}
+
+/* Styling for links to trailers */
+a[href*="youtube.com/watch?v="] {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Hover effect for links to trailers */
+a[href*="youtube.com/watch?v="]:hover {
+    color: #2980b9;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    #Bio {
+        padding: 15px;
+    }
+
+    #Bio img {
+        padding: 10px;
+    }
+
+    #Bio figcaption {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    #back-to-top {
+        bottom: 10px;
+        right: 10px;
+        padding: 8px;
+    }
+}
