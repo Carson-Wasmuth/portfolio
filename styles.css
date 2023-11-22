@@ -4,16 +4,17 @@
 /* General styling for the body */
 body {
     background: linear-gradient(rgb(50, 50, 50), rgb(0, 0, 0));
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 /* Styling for the main heading */
 h1 {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(191, 33, 33);
+    background: linear-gradient(#e71616, #8d0f0f);
     color: #ffffff;
     padding: 15px;
     margin: 0;
@@ -25,7 +26,7 @@ h1 {
 
 /* Styling for secondary headings */
 h2 {
-    background-color: rgb(191, 33, 33);
+    background: linear-gradient(#df2424, #9c1515);
     color: #ffffff;
     padding: 12px;
     margin: 0;
@@ -68,7 +69,7 @@ h2 {
 
 /* Styling for the footer */
 footer {
-    background-color: rgb(55, 55, 55);
+    background: linear-gradient(rgb(55, 55, 55), rgb(33, 33, 33));
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -141,14 +142,14 @@ th, td {
     padding: 15px;
     text-align: left;
     border-radius: 8px;
-    background-color: #808080;
+    background: #808080;
     color: #ffffff;
 }
 
 /* Styling for table header */
 th {
     border-radius: 8px 8px 0 0;
-    background-color: rgb(89, 89, 89);
+    background: rgb(89, 89, 89);
 }
 
 /* Styling for links to trailers */
