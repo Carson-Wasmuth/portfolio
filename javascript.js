@@ -29,3 +29,14 @@ document.getElementById('btn-counter').onclick = () => {
         document.getElementById('txt-counter').classList.remove('even');
     }
 };
+
+const numbersList = document.getElementById('numbers');
+
+for (let i = 1; i <= 100; i++) {
+
+    const listItem = document.createElement('li');
+    
+    listItem.textContent = i % 2 === 0 ? 'even' : 'odd';
+
+    numbersList.appendChild(listItem);
+}
