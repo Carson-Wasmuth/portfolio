@@ -222,10 +222,10 @@ a[href*="youtube.com/watch?v="]:hover {
 }
 /* Styling for even numbers */
 .even {
-    color: rgb(106, 106, 106);  /* You can choose any color you prefer for even numbers */
+    color: rgb(106, 106, 106); 
 }
 
 /* Styling for odd numbers */
 .odd {
-    color: red;   /* You can choose any color you prefer for odd numbers */
+    color: red;
 }
