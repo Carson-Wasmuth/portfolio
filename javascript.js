@@ -1,13 +1,13 @@
 document.getElementById('currentYear').textContent = new Date().getFullYear();
 
 document.getElementById('alertButton').addEventListener('click', function() {
-    alert('Hello world!');
+    alert('Thanks!');
 });
 
-document.getElementById('id').onmouseover = () => {
-    document.getElementById('id').innerText = 'Please!';
+document.getElementById('alertButton').onmouseover = () => {
+    document.getElementById('alertButton').innerText = 'Please!';
 };
 
-document.getElementById('id').onmouseleave = () => {
-    document.getElementById('id').innerText = 'Click Me!';
+document.getElementById('alertButton').onmouseleave = () => {
+    document.getElementById('alertButton').innerText = 'Click Me!';
 };
